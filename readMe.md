@@ -1,3 +1,3 @@
-# CollectAm API
+# GO GORM BOILERPLATE
 
-- backend app for CollectAM app
+- GO template for backend development with GORM
