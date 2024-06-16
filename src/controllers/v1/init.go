@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
 )
 
 type V1 struct {

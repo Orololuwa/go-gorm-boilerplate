@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
-	"github.com/Orololuwa/collect_am-api/src/handlers"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
-	"github.com/Orololuwa/collect_am-api/src/middleware"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/middleware"
 	"github.com/go-playground/validator/v10"
 )
 

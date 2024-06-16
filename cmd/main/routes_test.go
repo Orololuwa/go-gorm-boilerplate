@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Orololuwa/collect_am-api/src/driver"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
 	"github.com/go-chi/chi/v5"
 )
 

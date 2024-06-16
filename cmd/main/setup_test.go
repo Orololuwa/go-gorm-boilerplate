@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
 )
 
 var testApp config.AppConfig

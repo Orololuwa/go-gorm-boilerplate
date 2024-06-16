@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 
-	"github.com/Orololuwa/collect_am-api/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 	"gorm.io/gorm"
 )
 

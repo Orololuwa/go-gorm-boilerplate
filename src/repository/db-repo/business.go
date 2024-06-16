@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Orololuwa/collect_am-api/src/driver"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
-	"github.com/Orololuwa/collect_am-api/src/models"
-	"github.com/Orololuwa/collect_am-api/src/repository"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/repository"
 	"gorm.io/gorm"
 )
 

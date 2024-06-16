@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"strconv"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
 	"github.com/theritikchoure/logx"
 )
 

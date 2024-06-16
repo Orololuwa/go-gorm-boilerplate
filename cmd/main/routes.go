@@ -3,10 +3,10 @@ package main
 import (
 	"net/http"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
-	v1 "github.com/Orololuwa/collect_am-api/src/controllers/v1"
-	"github.com/Orololuwa/collect_am-api/src/driver"
-	middleware "github.com/Orololuwa/collect_am-api/src/middleware"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	v1 "github.com/Orololuwa/go-gorm-boilerplate/src/controllers/v1"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
+	middleware "github.com/Orololuwa/go-gorm-boilerplate/src/middleware"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"
 )

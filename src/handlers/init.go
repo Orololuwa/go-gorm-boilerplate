@@ -1,14 +1,14 @@
 package handlers
 
 import (
-	"github.com/Orololuwa/collect_am-api/src/config"
-	"github.com/Orololuwa/collect_am-api/src/driver"
-	"github.com/Orololuwa/collect_am-api/src/dtos"
-	"github.com/Orololuwa/collect_am-api/src/mocks"
-	"github.com/Orololuwa/collect_am-api/src/models"
-	"github.com/Orololuwa/collect_am-api/src/repository"
-	dbrepo "github.com/Orololuwa/collect_am-api/src/repository/db-repo"
-	"github.com/Orololuwa/collect_am-api/src/types"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/dtos"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/mocks"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/repository"
+	dbrepo "github.com/Orololuwa/go-gorm-boilerplate/src/repository/db-repo"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/types"
 )
 
 type ErrorData struct {

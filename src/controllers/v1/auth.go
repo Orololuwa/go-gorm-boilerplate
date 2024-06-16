@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Orololuwa/collect_am-api/src/dtos"
-	"github.com/Orololuwa/collect_am-api/src/handlers"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/dtos"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
 )
 
 func (m *V1) SignUp(w http.ResponseWriter, r *http.Request){

@@ -7,15 +7,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Orololuwa/collect_am-api/src/config"
-	"github.com/Orololuwa/collect_am-api/src/driver"
-	"github.com/Orololuwa/collect_am-api/src/handlers"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
-	"github.com/Orololuwa/collect_am-api/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 	"github.com/go-playground/validator/v10"
 	"github.com/joho/godotenv"
-
-	_ "ariga.io/atlas-provider-gorm/gormschema"
 )
 
 const portNumber = ":8085"

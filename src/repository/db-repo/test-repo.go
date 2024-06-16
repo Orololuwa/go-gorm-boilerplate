@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/Orololuwa/collect_am-api/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

@@ -6,10 +6,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Orololuwa/collect_am-api/src/dtos"
-	"github.com/Orololuwa/collect_am-api/src/handlers"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
-	"github.com/Orololuwa/collect_am-api/src/models"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/dtos"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 )
 
 func (m *V1) AddBusiness(w http.ResponseWriter, r *http.Request){

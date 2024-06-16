@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Orololuwa/collect_am-api/src/types"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/types"
 	"github.com/golang-jwt/jwt/v5"
 )
 

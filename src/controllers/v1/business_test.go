@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Orololuwa/collect_am-api/src/dtos"
-	"github.com/Orololuwa/collect_am-api/src/helpers"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/dtos"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
 	"github.com/go-faker/faker/v4"
 )
 
