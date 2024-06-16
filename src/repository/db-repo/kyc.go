@@ -1,8 +1,6 @@
 package dbrepo
 
 import (
-	"database/sql"
-
 	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
 	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 	"github.com/Orololuwa/go-gorm-boilerplate/src/repository"
@@ -10,18 +8,15 @@ import (
 )
 
 type kycOrm struct {
-	DB *sql.DB
 	db *gorm.DB
 }
 func NewKycDBRepo(db *driver.DB) repository.KycDBRepo {
 	return &kycOrm{
-		DB: db.SQL,
 		db: db.Gorm,
 	}
 }
 
 type testKycDBRepo struct {
-	DB *sql.DB
 }
 func NewKycTestingDBRepo() repository.KycDBRepo {
 	return &testKycDBRepo{

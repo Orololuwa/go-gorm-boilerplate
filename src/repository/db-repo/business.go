@@ -1,8 +1,6 @@
 package dbrepo
 
 import (
-	"database/sql"
-
 	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
 	"github.com/Orololuwa/go-gorm-boilerplate/src/models"
 	"github.com/Orololuwa/go-gorm-boilerplate/src/repository"
@@ -10,24 +8,20 @@ import (
 )
 
 type businessOrm struct {
-	DB *sql.DB
 	db *gorm.DB
 }
 func NewBusinessDBRepo(db *driver.DB) repository.BusinessDBRepo {
 	return &businessOrm{
-		DB: db.SQL,
 		db: db.Gorm,
 	}
 }
 
 type testBusinessDBRepo struct {
-	DB *sql.DB
 }
 func NewBusinessTestingDBRepo() repository.BusinessDBRepo {
 	return &testBusinessDBRepo{
 	}
 }
-
 
 func (o *businessOrm) GetOneByUserId(userId uint) (businesses models.Business, err error) {
     result := o.db.
