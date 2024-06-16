@@ -5,18 +5,21 @@ import (
 	"net/http"
 
 	"github.com/Orololuwa/go-gorm-boilerplate/src/config"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
 	"github.com/Orololuwa/go-gorm-boilerplate/src/helpers"
 )
 
 type V1 struct {
 	App *config.AppConfig
+	Handlers handlers.HandlerFunc
 }
 
 var v1 *V1
 
-func NewController(a *config.AppConfig) *V1 {
+func NewController(a *config.AppConfig, h handlers.HandlerFunc) *V1 {
 	v1Instance := &V1{
 		App: a,
+		Handlers: h,
 	}
 	v1= v1Instance
 

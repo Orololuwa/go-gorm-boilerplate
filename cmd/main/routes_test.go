@@ -5,13 +5,18 @@ import (
 	"testing"
 
 	"github.com/Orololuwa/go-gorm-boilerplate/src/driver"
+	"github.com/Orololuwa/go-gorm-boilerplate/src/handlers"
 	"github.com/go-chi/chi/v5"
 )
+
+
 
 func TestRoutes(t *testing.T){
 	sql := driver.CreateTestDBInstance()
 	conn := driver.DB{SQL: sql}
-	mux := routes(&testApp, &conn)
+	h := handlers.NewTestHandlers(&testApp)
+
+	mux := routes(&testApp, h, &conn)
 
 	switch v := mux.(type) {
 	case *chi.Mux:
